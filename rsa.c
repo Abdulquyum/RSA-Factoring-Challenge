@@ -59,17 +59,15 @@ void factorize(char *buffer)
 	a = 2;
 
 	for (i = 0; buffer[i] != '\0'; i++)
-	{
+	u{
 		while (a < num)
 		{
 			if (num % a == 0)
 			{
-				printf("%d=%d*%d\n", num, num/a, a);
+				printf("%d=%d*%d\n", num, num / a, a);
 				break;
 			}
 			a += 1;
 		}
 	}
-	
-	
 }
